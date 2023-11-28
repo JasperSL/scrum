@@ -11,7 +11,7 @@ export default function RefreshButton(): JSX.Element {
     <button
       className={`${
         isPending ? 'cursor-not-allowed text-gray-400' : 'text-gray-500'
-      } text-sm hover:text-gray-900`}
+      } text-sm hover:text-red-900`}
       disabled={isPending}
       onClick={() => {
         startTransition(() => {
